@@ -3,6 +3,6 @@
 <jsp:setProperty property="*" name="u"/>
 
 <%
-UserCrud.delete(u);
+UserCrud.delete(u);;
 response.sendRedirect("viewusers.jsp");
 %>
